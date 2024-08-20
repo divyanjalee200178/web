@@ -17,42 +17,43 @@
 <!--        navigate to the Home,work,About,Contact pages still Home page-->
       <nav>
           <ul>
+              <li>
+                  <a href="1_html_structure.html#Home">Home</a>
+              </li>
+
               <li >
-                  <a href="https://www.zaaratours.com/pages/bridal-cars.html">Home</a>
+                  <a href="1_html_structure.html#Assignment">Assignment</a>
               </li>
 
               <li>
-                  <a href="">Assignment</a>
+                  <a href="1_html_structure.html#Project">Project</a>
               </li>
 
               <li>
-                  <a href="">Project</a>
+                  <a href="1_html_structure.html#About">About</a>
               </li>
 
               <li>
-                  <a href="">About</a>
+                  <a href="1_html_structure.html#Skill">Skill</a>
               </li>
 
               <li>
-                  <a href="">Skill</a>
+                  <a href="1_html_structure.html#Gallery">Gallery</a>
               </li>
 
               <li>
-                  <a href="">Gallery</a>
+                  <a href="1_html_structure.html#Event">Event</a>
               </li>
 
               <li>
-                  <a href="">Event</a>
-              </li>
-
-              <li>
-                  <a href="">Contact</a>
+                  <a href="1_html_structure.html#Contact">Contact</a>
               </li>
           </ul>
       </nav>
     </header>
 <!--        *********  hero section  ********-->
     <main>
+        <h2 id="Home">Home</h2>
         <section>
             <div>
                 <img src="../assets/name_icon.jpeg" height="80px">
@@ -86,7 +87,7 @@
     </main>
 <!--        **********  start assignment page  ***********-->
     <main>
-        <h1>Assignment</h1>
+        <h1 id="Assignment">Assignment</h1>
         <!--        ********** assignment 01   ***********-->
         <section>
             <div>
@@ -229,6 +230,7 @@
     </main>
 <!--        ********** project section  ***********-->
     <main>
+        <h2 id="Project">Poject</h2>
         <!--        ********** project 01 section  ***********-->
         <section>
             <img src="../assets/game.jpeg">
@@ -263,7 +265,7 @@
 <!--        ********** About section  ***********-->
 
     <main>
-        <h1>About me</h1>
+        <h1 id="About">About me</h1>
         <!--        ********** About my school section  ***********-->
         <section>
             <div>
@@ -285,9 +287,10 @@
         </section>
         <img src="../assets/Ijse.jfif" height="100px">
     </main>
+
 <!--        ********** Skill section  ***********-->
     <main>
-        <h1>My Skill</h1>
+        <h1 id="Skill">My Skill</h1>
         <!--        ********** Java section  ***********-->
         <section>
             <div>
@@ -333,7 +336,7 @@
     <main>
         <section>
             <div>
-                <img src="../assets/Gallery/my.jpeg" height="100px">
+                <img src="../assets/Gallery/my.jpeg" height="100px" id="Gallery">
                 <img src="../assets/Gallery/group.jpeg" height="100px">
                 <img src="../assets/Gallery/my2.jpeg" height="100px"><br>
                 <img src="../assets/Gallery/oran.jpeg" height="100px">
@@ -346,6 +349,7 @@
 <!--        ********** Event section  ***********-->
 
     <main>
+        <h2 id="Event">Event</h2>
         <!--        ********** photos section  ***********-->
         <section>
             <div>
@@ -372,7 +376,7 @@
         <main>
             <!--        ********** social link navigation section  ***********-->
             <section>
-                <h1>Contact me</h1>
+                <h1 id="Contact">Contact me</h1>
                 <div>
                     <nav>
                         <ul>
@@ -413,8 +417,33 @@
                     <a href="tel:0740667805">0740667805</a>
                 </div>
             </section>
-
+                    <br>
             <!--        ********** send email section  ***********-->
+            <section>
+                <div>
+                    <span>
+                        <label for="email">From   :</label>
+                        <input type="email" id="email" placeholder="Enter your Email"><br><br>
+                    </span>
+
+                </div>
+
+                <div>
+                    <span>
+                        <label for="emails">To  :</label>
+                        <input type="emails" id="emails" placeholder="Enter Email"><br><br>
+                    </span>
+                </div>
+
+                <div>
+                    <span>
+                        <label for="massage">Massage  :</label>
+                        <input type="massage" id="massage" placeholder="Enter your massage">
+                    </span>
+                    <br><br>
+                    <button>Send</button>
+                </div>
+            </section>
         </main>
     </footer>
 </body>
